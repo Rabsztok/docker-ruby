@@ -11,6 +11,5 @@ RUN apt-get install -y \
 
 RUN gem install bundler --no-document
 
-RUN eval $(ssh-agent -s)
 RUN mkdir -p ~/.ssh
 RUN echo "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
