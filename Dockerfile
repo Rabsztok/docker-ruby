@@ -15,5 +15,7 @@ RUN apt-get install -y \
 
 RUN gem install bundler --no-document
 
+RUN ln -s /usr/bin/nodejs /usr/bin/node
+
 RUN mkdir -p ~/.ssh
 RUN echo "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
