@@ -9,6 +9,7 @@ RUN apt-get install -y \
       gstreamer1.0-tools \
       gstreamer1.0-x \
       nodejs \
+      npm \
       imagemagick \
       libmagickwand-dev
 
