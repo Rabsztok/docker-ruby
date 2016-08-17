@@ -11,7 +11,8 @@ RUN apt-get install -y \
       nodejs \
       npm \
       imagemagick \
-      libmagickwand-dev
+      libmagickwand-dev \
+      firefox-esr
 
 RUN gem install bundler --no-document
 
