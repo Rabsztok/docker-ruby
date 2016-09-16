@@ -22,9 +22,6 @@ RUN apt-get install -y \
 # Install bundler
 RUN gem install bundler --no-document
 
-# link to correct node path
-RUN ln -s /usr/bin/nodejs /usr/bin/node
-
 # disable ssh key mismatch warnings
 RUN mkdir -p ~/.ssh
 RUN echo "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
