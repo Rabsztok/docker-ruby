@@ -1,3 +1,4 @@
+MAINTAINER rabsztok@gmail.com
 FROM ruby
 
 # Update repositories
