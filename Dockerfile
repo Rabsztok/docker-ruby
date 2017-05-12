@@ -1,5 +1,5 @@
-MAINTAINER rabsztok@gmail.com
 FROM ruby
+MAINTAINER rabsztok@gmail.com
 
 # Update repositories
 RUN apt-get update -y
