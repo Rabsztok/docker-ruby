@@ -1,11 +1,11 @@
-FROM ruby
+FROM ruby:2.5
 MAINTAINER rabsztok@gmail.com
 
 # Update repositories
 RUN apt-get update -y
 
-# Use Node 6.x official repo  
-RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
+# Use Node 8.x official repo  
+curl -sL https://deb.nodesource.com/setup_8.x | bash -
 
 # Install dependencies
 RUN apt-get install -y \
