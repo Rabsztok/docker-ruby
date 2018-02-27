@@ -5,7 +5,7 @@ MAINTAINER rabsztok@gmail.com
 RUN apt-get update -y
 
 # Use Node 8.x official repo  
-curl -sL https://deb.nodesource.com/setup_8.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 
 # Install dependencies
 RUN apt-get install -y \
